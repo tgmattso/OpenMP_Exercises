@@ -2,7 +2,7 @@
 # copy to make.def
 CC         = icpc
 CPP         = $(CC)
-OPTFLAGS   = -openmp
+OPTFLAGS   = -fopenmp
 
 CLINKER     = $(CC)
 LIBS        = -lm
